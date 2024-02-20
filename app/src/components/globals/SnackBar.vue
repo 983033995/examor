@@ -31,7 +31,7 @@ const router = useRouter()
 const MESSAGE_STORE = useMessageStore()
 
 const handleClick = () => {
-  if (MESSAGE_STORE.path) router.push(`${MESSAGE_STORE.path}`)
+  if (MESSAGE_STORE.path && !MESSAGE_STORE.path.includes('profile')) router.push(`${MESSAGE_STORE.path}`)
   else window.open(MESSAGE_STORE.url, '_blank')
 }
 </script>

@@ -1,3 +1,7 @@
+/*
+ * @FilePath: /examor/app/src/router/index.ts
+ * @Description:
+ */
 import { createRouter, createWebHistory } from 'vue-router'
 import NProgress from '@/plugins/nprogress'
 
@@ -41,8 +45,8 @@ const routes = [
         component: () => import('@/views/AddNote.vue'),
       },
       {
-        path: '/profile',
-        name: 'Profile',
+        path: '/profile-setting',
+        name: 'ProfileSetting',
         component: () => import('@/views/Profile.vue'),
       },
       {

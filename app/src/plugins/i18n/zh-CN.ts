@@ -1,5 +1,5 @@
 export const zhCN = {
-  slogan: 'self-improvement',
+  slogan: '题库学习助手',
 
   menus: {
     dashboard: '控制面板',

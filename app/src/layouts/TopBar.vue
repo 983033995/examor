@@ -55,13 +55,13 @@
         </v-list>
       </v-menu>
 
-      <v-btn
+      <!-- <v-btn
         icon="mdi-cogs"
         size="small"
         elevation="0"
         variant="text"
-        @click="router.push('/profile')"
-      />
+        @click="router.push('/profile-setting')"
+      /> -->
 
       <v-btn
         size="small"
